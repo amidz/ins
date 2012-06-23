@@ -1,0 +1,25 @@
+; $id$
+
+name = Ins
+description = Theme ins
+core = 7.x
+
+; REGIONS
+;---------------------------------
+regions[content] = Content
+;regions[sidebar_first] = Sidebar First
+regions[footer] = Footer
+regions[search_area] = Search area
+regions[navigation] = Navigation
+regions[header] = Header
+
+; STYLESHEETS
+;---------------------------------
+stylesheets[all][] = style.css
+;scripts[] = js/jquery.js
+;scripts[] = js/jquery.once.js
+scripts[] = js/search.js
+;scripts[] = js/drupal.js
+scripts[] = js/cycle.js
+scripts[] = js/themes/script.js
+scripts[] = js/themes/menu.js

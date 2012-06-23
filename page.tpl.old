@@ -1,0 +1,201 @@
+<div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <h1>
+        <a href="/" title="Home" rel="home" id="logo">
+          <img src="<?php print $logo; ?>" alt="Home" />
+        </a>
+      </h1>
+    
+   <!-- <a id="login" href="https://eweb.autism-insar.org/eweb/">
+      My INSAR | <span>Login</span><img alt="Login Icon" src="/images/login_icon.png">
+      
+      </a>
+	  -->
+      <div class="region region-header">
+    <div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <!--<form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="40" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="image" id="edit-submit" name="submit" src="/images/search_icon.png" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-WOndwSgAqXGi9nkexz1RBuo7YtAOIfTYhsXap-_LrvM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>-->
+<?php print render($page['search_area']); ?>   
+</div>
+
+</div>
+  </div>
+    
+  </div></div> <!-- /.section, /#header -->
+  
+  <?php if ($main_menu): ?>
+      <div id="main-menu" class="navigation">
+        <?php print theme('links__system_main_menu', array(
+          'links' => $main_menu,
+          'attributes' => array(
+            'id' => 'main-menu-links',
+            'class' => array('links', 'clearfix'),
+          ),
+          'heading' => array(
+            'text' => t('Main menu'),
+            'level' => 'h2',
+            'class' => array('element-invisible'),
+          ),
+        )); ?>
+      </div> <!-- /#main-menu -->
+    <?php endif; ?>
+
+	
+      <div id="featured"><div class="section clearfix">
+        <div class="region region-featured">
+    <div id="block-views-slider-block" class="block block-views">
+
+    
+  <div class="content">
+    <div id="slider" class="view view-slider view-id-slider view-display-id-block view-dom-id-4baba895b1e3fa3f855ad67234b7841e">
+  <div id="slider-header">
+    <h6 id="slide-title"></h6>
+    <div id="slide-content">
+      <p id="slide-body"></p>
+      <a id="slide-link" href="#"></a>
+    </div>
+    
+    <div id="slider-nav">
+      <div id="slider-pager"></div>
+      <div id="arrows">        
+        <span class="arrow" id="link-next">next</span>
+        <span class="arrow" id="link-prev">prev</span>
+      </div>
+    </div>    
+  </div>
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="http://www.autism-insar.org/content/sites/default/files/slider/marquee04.jpg" width="1020" height="458" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Next Generation</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p><span>Foster opportunities for leadership and career development for the next generation of ASD research.</span></p>
+</div>  </div>  
+  <div class="views-field views-field-field-link">        <div class="field-content"></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="http://www.autism-insar.org/content/sites/default/files/slider/marquee03.jpg" width="1020" height="458" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Global Reach</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p><span>Expand the scope of activities to encompass global perspectives on ASD. </span></p>
+</div>  </div>  
+  <div class="views-field views-field-field-link">        <div class="field-content"></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="http://www.autism-insar.org/content/sites/default/files/slider/marquee02.jpg" width="1020" height="458" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Setting the Bar</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p><span>Promote and enhance the highest quality research.</span></p>
+</div>  </div>  
+  <div class="views-field views-field-field-link">        <div class="field-content"></div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="http://www.autism-insar.org/sponsorship"><img typeof="foaf:Image" src="http://www.autism-insar.org/content/sites/default/files/slider/marquee01.jpg" width="1020" height="458" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Expanding the Scope</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p><span>Cultivate cross-cutting breadth of research from basic science to service delivery that encompasses the range of ages and diversity of ASD.</span></p>
+</div>  </div>  
+  <div class="views-field views-field-field-link">        <div class="field-content"><a href="sponsorship ">Read more</a></div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="http://www.autism-insar.org/imfar-annual-meeting/imfar-2013"><img typeof="foaf:Image" src="http://www.autism-insar.org/content/sites/default/files/slider/spain.jpg" width="1020" height="459" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">IMFAR 2013</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-link">        <div class="field-content"><a href="imfar-annual-meeting/imfar-2013 ">Read more</a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+</div>
+
+
+  </div>
+  
+  
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<!--<div id="block-block-1" class="block block-block"> -->
+<!-- 1111111111111-->
+  <div id="main-wrapper" class="clearfix"> 
+ <?php print render($page['content']); ?>
+ </div>
+
+	<!-- 11111 -->
+  
+  <div id="footer-wrapper"><div class="section">
+
+          <div id="footer-top" class="clearfix">
+          <div class="region region-footer-top">
+    <div id="block-menu-menu-quick-links" class="block block-menu">
+
+    <h2>Quick links</h2>
+  
+  <div class="content">
+    <ul class="menu clearfix"><li class="first expanded"><a href="/" title="" class="active">Column 1</a><ul class="menu clearfix"><li class="first leaf"><a href="/about/overview" title="">About INSAR</a></li>
+<li class="leaf"><a href="/membership" title="">Membership</a></li>
+<li class="leaf"><a href="/research-opportunities/funding" title="">Funding</a></li>
+<li class="last leaf"><a href="/research-opportunities/membership-research" title="">Research</a></li>
+</ul></li>
+<li class="expanded"><a href="/" title="" class="active">Column 2</a><ul class="menu clearfix"><li class="first leaf"><a href="/research-opportunities/training-programs" title="">Training</a></li>
+<li class="leaf"><a href="/imfar-annual-meeting/imfar-2012" title="">IMFAR Meeting</a></li>
+<li class="leaf"><a href="/sponsorship" title="">Sponsorship</a></li>
+<li class="last leaf"><a href="/resources" title="">Resources</a></li>
+</ul></li>
+<li class="last expanded"><a href="/" title="" class="active">Column 3</a><ul class="menu clearfix"><li class="first leaf"><a href="/contact-us" title="">Contact Us</a></li>
+<li class="last leaf"><a href="/terms-of-use" title="">Terms of Use</a></li>
+</ul></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-connect" class="block block-menu">
+
+    <h2>Connect</h2>
+  
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf"><a href="http://www.facebook.com/pages/International-Society-for-Autism-Research/134012223331747" title="">Facebook</a></li>
+<li class="last leaf"><a href="http://www.linkedin.com/groups?about=&amp;gid=1213897&amp;trk=anet_ug_grppro" title="">LinkedIn</a></li>
+</ul>  </div>
+</div>
+<div id="block-block-3" class="block block-block">
+
+    <h2>Public Relations</h2>
+  
+  <div class="content">
+    <p><a href="/media-registration">Media Registration</a></p>
+  </div>
+</div>
+  </div>
+        
+      </div> <!-- /#footer-top -->
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-block-4" class="block block-block">
+
+    
+  <div class="content">
+    <p><strong>INSAR</strong> | 342 North Main Street West Hartford, CT 06117-2507 USA ɠ2012 INSAR | International Society for Autism Research</p>
+  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
