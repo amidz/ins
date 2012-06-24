@@ -31,8 +31,8 @@
 	  
 
 	<?php if ($is_front):?> <!--если главная страница -->
-      <div id="featured"><div class="section clearfix">
-        <div class="region region-featured"> <!-- переназначить регион -->
+     <!--<div id="featured"><div class="section clearfix">
+        <div class="region region-featured"> 
     <div id="block-views-slider-block" class="block block-views">
 
     
@@ -53,7 +53,7 @@
 		  </div>
 		</div>    
 	  </div>
-  
+
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first">
       
@@ -95,7 +95,7 @@
 			  <div class="views-field views-field-body">        <div class="field-content"></div>  </div>  
 			  <div class="views-field views-field-field-link">        <div class="field-content"><a href="imfar-annual-meeting/imfar-2013 ">Read more</a></div>  </div>  
 		  </div>
-			</div>
+			</div> 
 			
 			
   
@@ -108,7 +108,7 @@
 </div>
 </div>
 </div>
-</div>
+</div>-->
 
 <?php endif;?>
 

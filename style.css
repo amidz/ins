@@ -115,7 +115,7 @@ body {
     height: 37px;    
     width: 343px;
 }
-#login {
+#block-user-login{
   background: none repeat scroll 0 0 #5B5542;
   border: 1px solid #A49975;
   color: #FFFFFF;
@@ -127,11 +127,11 @@ body {
   padding: 11px 11px 11px 13px;
   text-decoration: none;
 }
-#login span {
+#block-user-login span {
   color: #F6D222;
   padding: 0 11px 0 0;
 }
-#login img {
+#block-user-login img {
     height: 18px;
     vertical-align: middle;
     width: 18px;
@@ -1232,4 +1232,4 @@ a#journal_cover {
 	z-index:40;
 }
 
-/*add some style here*/
+/*add some style here dasdaf*/
